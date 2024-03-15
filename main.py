@@ -26,7 +26,7 @@ bot_token = "6365859811:AAF1Aj_VrbdxS9aPED2PqjwRaeEi4fcm_JE"
 app = Client("my_bot", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 
 # Folder path where videos are stored
-folder_path = "vid"
+folder_path = "X-Vid"
 
 # Handler for /begin command
 @app.on_message(filters.command("begin") & filters.private)
